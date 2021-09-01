@@ -1,6 +1,6 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     num_viewer.count += 10
-    num_pred += 1
+    num_pred += 10
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     num_viewer.count += -10
